@@ -1,0 +1,9 @@
+.table td {
+  border-bottom: 1px solid #dddddd;
+  padding: 15px;
+  text-align: center;
+}
+
+.table td img {
+  width: 22px;
+}

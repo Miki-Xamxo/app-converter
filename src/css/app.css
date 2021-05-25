@@ -1,0 +1,50 @@
+@import './components/all.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: #1a1a1c; */
+}
+
+body {
+  background-color: #1a1a1c;
+}
+
+.app {
+  margin-top: 64px;
+  color: #fff;
+}
+
+.containner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.coins__list {
+  width: 60%;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  background-color: #fff;
+  color: #000;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

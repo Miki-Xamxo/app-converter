@@ -1,0 +1,58 @@
+.calc__currency-type {
+  width: 380px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.calc__switcher-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #cdcdcd;
+  font-size: 20px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.calc__switcher-item img {
+  width: 20px;
+  transform: rotate(0);
+  background-color: #fff;
+}
+.calc__switcher-item span {
+  background-color: #fff;
+}
+
+.calc__switcher-item:hover:not(.active) {
+  opacity: 0.8;
+}
+
+.calc__currency-input {
+  width: 400px;
+  margin: 24px 0;
+  padding: 30px 20px 15px;
+  border: 1px solid #cdcdcd;
+  background-color: #fff;
+}
+
+.calc__currency-input form,
+input {
+  width: 100%;
+  height: 46px;
+  font-size: 44px;
+  outline: 0;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  font-family: GraphikCy-Semibold, 'Helvetica CY', Arial, sans-serif;
+  border: none;
+  background-color: #fff;
+}
+.rotate {
+  transform: rotate(180deg);
+}
